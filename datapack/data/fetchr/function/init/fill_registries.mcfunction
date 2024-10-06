@@ -64,7 +64,7 @@ data modify storage fetchr:registries categories append value {id: "fetchr:spide
 data modify storage fetchr:registries categories append value {id: "fetchr:taiga", name: '{"translate": "fetchr.category.taiga"}', tags: ["fetchr:default"]}
 data modify storage fetchr:registries categories append value {id: "fetchr:wheat", name: '{"translate": "fetchr.category.wheat"}', tags: ["fetchr:default"]}
 data modify storage fetchr:registries categories append value {id: "fetchr:wool", name: '{"translate": "fetchr.category.wool"}', tags: ["fetchr:default"]}
-
+data modify storage fetchr:registries categories append value {id: "fetchr:raw_meat", name: '{"translate": "fetchr.category.raw_meat"}', tags: ["fetchr:default"]}
 
 # items
 
@@ -536,6 +536,10 @@ data modify storage fetchr:registries items append value {id: "fetchr:blue_concr
 
 ## 006a: bow
 data modify storage fetchr:registries items append value {id: "fetchr:bow", item: {id: "minecraft:bow"}, textComponent: '{"translate": "item.minecraft.bow", "hoverEvent": {"action": "show_item", "contents": {"id": "minecraft:bow"}}}', icon: '"\\u006a"', detectCommand: "execute as @a[tag=fetchr.check_slot] store success score @s fetchr.has_item run clear @s minecraft:bow 0", clearCommand: "clear @a[tag=fetchr.clear] minecraft:bow 1", categories: ["fetchr:bow"]}
+
+## 006b: porkchop
+data modify storage fetchr:registries items append value {id: "fetchr:porkchop", item: {id: "minecraft:porkchop"}, textComponent: '{"translate": "item.minecraft.porkchop", "hoverEvent": {"action": "show_item", "contents": {"id": "minecraft:porkchop"}}}', icon: '"\\u006b"', detectCommand: "execute as @a[tag=fetchr.check_slot] store success score @s fetchr.has_item run clear @s minecraft:porkchop 0", clearCommand: "clear @a[tag=fetchr.clear] minecraft:porkchop 1", categories: ["fetchr:raw_meat"]}
+
 
 
 # structures
