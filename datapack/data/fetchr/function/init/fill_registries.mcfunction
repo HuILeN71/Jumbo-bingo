@@ -65,6 +65,7 @@ data modify storage fetchr:registries categories append value {id: "fetchr:taiga
 data modify storage fetchr:registries categories append value {id: "fetchr:wheat", name: '{"translate": "fetchr.category.wheat"}', tags: ["fetchr:default"]}
 data modify storage fetchr:registries categories append value {id: "fetchr:wool", name: '{"translate": "fetchr.category.wool"}', tags: ["fetchr:default"]}
 
+
 # items
 
 ## 0001: pumpkin_seeds
@@ -522,6 +523,20 @@ data modify storage fetchr:registries items append value {id: "fetchr:amethyst_b
 
 ## 0132: calcite
 data modify storage fetchr:registries items append value {id: "fetchr:calcite", item: {id: "minecraft:calcite"}, textComponent: '{"translate": "block.minecraft.calcite", "hoverEvent": {"action": "show_item", "contents": {"id": "minecraft:calcite"}}}', icon: '"\\u0132"', detectCommand: "execute as @a[tag=fetchr.check_slot] store success score @s fetchr.has_item run clear @s minecraft:calcite 0", clearCommand: "clear @a[tag=fetchr.clear] minecraft:calcite 1", categories: ["fetchr:amethyst"], weight: 2}
+
+## Items vanaf hier zijn geen standaard items meer 3d
+
+## 0133: green_bed
+data modify storage fetchr:registries items append value {id: "fetchr:green_bed", item: {id: "minecraft:green_bed"}, textComponent: '{"translate": "block.minecraft.green_bed", "hoverEvent": {"action": "show_item", "contents": {"id": "minecraft:green_bed"}}}', icon: '"\\u0133"', detectCommand: "execute as @a[tag=fetchr.check_slot] store success score @s fetchr.has_item run clear @s minecraft:green_bed 0", clearCommand: "clear @a[tag=fetchr.clear] minecraft:green_bed 1", categories: ["fetchr:wool"]}
+
+## 0134: blue_concrete
+data modify storage fetchr:registries items append value {id: "fetchr:blue_concrete", item: {id: "minecraft:blue_concrete"}, textComponent: '{"translate": "block.minecraft.blue_concrete", "hoverEvent": {"action": "show_item", "contents": {"id": "minecraft:blue_concrete"}}}', icon: '"\\u0134"', detectCommand: "execute as @a[tag=fetchr.check_slot] store success score @s fetchr.has_item run clear @s minecraft:blue_concrete 0", clearCommand: "clear @a[tag=fetchr.clear] minecraft:blue_concrete 1", categories: ["fetchr:sand"], weight: 2}
+
+## Items vanaf hier zijn geen standaard items meer 2d
+
+## 006a: bow
+data modify storage fetchr:registries items append value {id: "fetchr:bow", item: {id: "minecraft:bow"}, textComponent: '{"translate": "item.minecraft.bow", "hoverEvent": {"action": "show_item", "contents": {"id": "minecraft:bow"}}}', icon: '"\\u006a"', detectCommand: "execute as @a[tag=fetchr.check_slot] store success score @s fetchr.has_item run clear @s minecraft:bow 0", clearCommand: "clear @a[tag=fetchr.clear] minecraft:bow 1", categories: ["fetchr:bow"]}
+
 
 # structures
 data modify storage fetchr:registries structures append value "fetchr:credits"
