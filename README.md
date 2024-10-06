@@ -1,4 +1,4 @@
-# Fetchr
+# Jumbo
 Fetchr is a custom gamemode where you play in survival Minecraft with a 5x5 Bingo board.
 
 Try to collect all 5 items in a line for a quick Bingo or all 25 items for a longer Blackout game as quickly as possible!
