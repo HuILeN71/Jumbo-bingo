@@ -1,5 +1,6 @@
 {
     "values": [
-        "fetchr:init/fill_registries"
+        "fetchr:init/fill_registries",
+        "fetchr:init/fill_custom_registries"
     ]
 }
