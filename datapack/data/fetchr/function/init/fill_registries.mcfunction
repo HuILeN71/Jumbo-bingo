@@ -18,51 +18,51 @@
 # Probably should just keep the order of initial definition
 
 # Original categories
-#data modify storage fetchr:registries categories append value {id: "fetchr:amethyst", name: '{"translate": "fetchr.category.amethyst"}', tags: ["fetchr:default"]}
-#data modify storage fetchr:registries categories append value {id: "fetchr:basic_iron", name: '{"translate": "fetchr.category.basic_iron"}', tags: ["fetchr:default"]}
-#data modify storage fetchr:registries categories append value {id: "fetchr:bow", name: '{"translate": "fetchr.category.bow"}', tags: ["fetchr:default"]}
-#data modify storage fetchr:registries categories append value {id: "fetchr:cactus", name: '{"translate": "fetchr.category.cactus"}', tags: ["fetchr:default"]}
-#data modify storage fetchr:registries categories append value {id: "fetchr:cherry_grove", name: '{"translate": "fetchr.category.cherry_grove"}', tags: ["fetchr:default"]}
-#data modify storage fetchr:registries categories append value {id: "fetchr:clay", name: '{"translate": "fetchr.category.clay"}', tags: ["fetchr:default"]}
-#data modify storage fetchr:registries categories append value {id: "fetchr:copper", name: '{"translate": "fetchr.category.copper"}', tags: ["fetchr:default"]}
-#data modify storage fetchr:registries categories append value {id: "fetchr:chest_iron", name: '{"translate": "fetchr.category.chest_iron"}', tags: ["fetchr:default"]}
-#data modify storage fetchr:registries categories append value {id: "fetchr:compass", name: '{"translate": "fetchr.category.compass"}', tags: ["fetchr:default"]}
-#data modify storage fetchr:registries categories append value {id: "fetchr:deepslate", name: '{"translate": "fetchr.category.deepslate"}', tags: ["fetchr:default"]}
-#data modify storage fetchr:registries categories append value {id: "fetchr:diamond", name: '{"translate": "fetchr.category.diamond"}', tags: ["fetchr:default"]}
+# data modify storage fetchr:registries categories append value {id: "fetchr:amethyst", name: '{"translate": "fetchr.category.amethyst"}', tags: ["fetchr:default"]}
+# data modify storage fetchr:registries categories append value {id: "fetchr:basic_iron", name: '{"translate": "fetchr.category.basic_iron"}', tags: ["fetchr:default"]}
+# data modify storage fetchr:registries categories append value {id: "fetchr:bow", name: '{"translate": "fetchr.category.bow"}', tags: ["fetchr:default"]}
+# data modify storage fetchr:registries categories append value {id: "fetchr:cactus", name: '{"translate": "fetchr.category.cactus"}', tags: ["fetchr:default"]}
+# data modify storage fetchr:registries categories append value {id: "fetchr:cherry_grove", name: '{"translate": "fetchr.category.cherry_grove"}', tags: ["fetchr:default"]}
+# data modify storage fetchr:registries categories append value {id: "fetchr:clay", name: '{"translate": "fetchr.category.clay"}', tags: ["fetchr:default"]}
+# data modify storage fetchr:registries categories append value {id: "fetchr:copper", name: '{"translate": "fetchr.category.copper"}', tags: ["fetchr:default"]}
+# data modify storage fetchr:registries categories append value {id: "fetchr:chest_iron", name: '{"translate": "fetchr.category.chest_iron"}', tags: ["fetchr:default"]}
+# data modify storage fetchr:registries categories append value {id: "fetchr:compass", name: '{"translate": "fetchr.category.compass"}', tags: ["fetchr:default"]}
+# data modify storage fetchr:registries categories append value {id: "fetchr:deepslate", name: '{"translate": "fetchr.category.deepslate"}', tags: ["fetchr:default"]}
+# data modify storage fetchr:registries categories append value {id: "fetchr:diamond", name: '{"translate": "fetchr.category.diamond"}', tags: ["fetchr:default"]}
 data modify storage fetchr:registries categories append value {id: "fetchr:dripstone", name: '{"translate": "fetchr.category.dripstone"}', tags: ["fetchr:default"]}
-#data modify storage fetchr:registries categories append value {id: "fetchr:egg", name: '{"translate": "fetchr.category.egg"}', tags: ["fetchr:default"]}
-#data modify storage fetchr:registries categories append value {id: "fetchr:nighttime_mob_drops", name: '{"translate": "fetchr.category.nighttime_mob_drops"}', tags: ["fetchr:default"]}
-#data modify storage fetchr:registries categories append value {id: "fetchr:fish", name: '{"translate": "fetchr.category.fish"}', tags: ["fetchr:default"]}
-#data modify storage fetchr:registries categories append value {id: "fetchr:flint", name: '{"translate": "fetchr.category.flint"}', tags: ["fetchr:default"]}
-#data modify storage fetchr:registries categories append value {id: "fetchr:furnace", name: '{"translate": "fetchr.category.furnace"}', tags: ["fetchr:default"]}
+# data modify storage fetchr:registries categories append value {id: "fetchr:egg", name: '{"translate": "fetchr.category.egg"}', tags: ["fetchr:default"]}
+# data modify storage fetchr:registries categories append value {id: "fetchr:nighttime_mob_drops", name: '{"translate": "fetchr.category.nighttime_mob_drops"}', tags: ["fetchr:default"]}
+# data modify storage fetchr:registries categories append value {id: "fetchr:fish", name: '{"translate": "fetchr.category.fish"}', tags: ["fetchr:default"]}
+# data modify storage fetchr:registries categories append value {id: "fetchr:flint", name: '{"translate": "fetchr.category.flint"}', tags: ["fetchr:default"]}
+# data modify storage fetchr:registries categories append value {id: "fetchr:furnace", name: '{"translate": "fetchr.category.furnace"}', tags: ["fetchr:default"]}
 data modify storage fetchr:registries categories append value {id: "fetchr:glow_ink", name: '{"translate": "fetchr.category.glow_ink"}', tags: ["fetchr:default"]}
-#data modify storage fetchr:registries categories append value {id: "fetchr:gold_and_ruined_portal", name: '{"translate": "fetchr.category.gold_and_ruined_portal"}', tags: ["fetchr:default"]}
-#data modify storage fetchr:registries categories append value {id: "fetchr:gunpowder", name: '{"translate": "fetchr.category.gunpowder"}', tags: ["fetchr:default"]}
+# data modify storage fetchr:registries categories append value {id: "fetchr:gold_and_ruined_portal", name: '{"translate": "fetchr.category.gold_and_ruined_portal"}', tags: ["fetchr:default"]}
+# data modify storage fetchr:registries categories append value {id: "fetchr:gunpowder", name: '{"translate": "fetchr.category.gunpowder"}', tags: ["fetchr:default"]}
 data modify storage fetchr:registries categories append value {id: "fetchr:ink", name: '{"translate": "fetchr.category.ink"}', tags: ["fetchr:default"]}
-#data modify storage fetchr:registries categories append value {id: "fetchr:jungle", name: '{"translate": "fetchr.category.jungle"}', tags: ["fetchr:default"]}
-#data modify storage fetchr:registries categories append value {id: "fetchr:kelp", name: '{"translate": "fetchr.category.kelp"}', tags: ["fetchr:default"]}
-#data modify storage fetchr:registries categories append value {id: "fetchr:lapis", name: '{"translate": "fetchr.category.lapis"}', tags: ["fetchr:default"]}
-#data modify storage fetchr:registries categories append value {id: "fetchr:leather", name: '{"translate": "fetchr.category.leather"}', tags: ["fetchr:default"]}
-#data modify storage fetchr:registries categories append value {id: "fetchr:lime", name: '{"translate": "fetchr.category.lime"}', tags: ["fetchr:default"]}
-#data modify storage fetchr:registries categories append value {id: "fetchr:lush_cave", name: '{"translate": "fetchr.category.lush_cave"}', tags: ["fetchr:default"]}
-#data modify storage fetchr:registries categories append value {id: "fetchr:milk", name: '{"translate": "fetchr.category.milk"}', tags: ["fetchr:default"]}
-#data modify storage fetchr:registries categories append value {id: "fetchr:mud", name: '{"translate": "fetchr.category.mud"}', tags: ["fetchr:default"]}
-#data modify storage fetchr:registries categories append value {id: "fetchr:mushroom", name: '{"translate": "fetchr.category.mushroom"}', tags: ["fetchr:default"]}
-#data modify storage fetchr:registries categories append value {id: "fetchr:piston", name: '{"translate": "fetchr.category.piston"}', tags: ["fetchr:default"]}
-#data modify storage fetchr:registries categories append value {id: "fetchr:pumpkin", name: '{"translate": "fetchr.category.pumpkin"}', tags: ["fetchr:default"]}
+# data modify storage fetchr:registries categories append value {id: "fetchr:jungle", name: '{"translate": "fetchr.category.jungle"}', tags: ["fetchr:default"]}
+# data modify storage fetchr:registries categories append value {id: "fetchr:kelp", name: '{"translate": "fetchr.category.kelp"}', tags: ["fetchr:default"]}
+# data modify storage fetchr:registries categories append value {id: "fetchr:lapis", name: '{"translate": "fetchr.category.lapis"}', tags: ["fetchr:default"]}
+# data modify storage fetchr:registries categories append value {id: "fetchr:leather", name: '{"translate": "fetchr.category.leather"}', tags: ["fetchr:default"]}
+# data modify storage fetchr:registries categories append value {id: "fetchr:lime", name: '{"translate": "fetchr.category.lime"}', tags: ["fetchr:default"]}
+# data modify storage fetchr:registries categories append value {id: "fetchr:lush_cave", name: '{"translate": "fetchr.category.lush_cave"}', tags: ["fetchr:default"]}
+# data modify storage fetchr:registries categories append value {id: "fetchr:milk", name: '{"translate": "fetchr.category.milk"}', tags: ["fetchr:default"]}
+# data modify storage fetchr:registries categories append value {id: "fetchr:mud", name: '{"translate": "fetchr.category.mud"}', tags: ["fetchr:default"]}
+# data modify storage fetchr:registries categories append value {id: "fetchr:mushroom", name: '{"translate": "fetchr.category.mushroom"}', tags: ["fetchr:default"]}
+# data modify storage fetchr:registries categories append value {id: "fetchr:piston", name: '{"translate": "fetchr.category.piston"}', tags: ["fetchr:default"]}
+# data modify storage fetchr:registries categories append value {id: "fetchr:pumpkin", name: '{"translate": "fetchr.category.pumpkin"}', tags: ["fetchr:default"]}
 data modify storage fetchr:registries categories append value {id: "fetchr:rabbit", name: '{"translate": "fetchr.category.rabbit"}', tags: ["fetchr:default"]}
-#data modify storage fetchr:registries categories append value {id: "fetchr:rail", name: '{"translate": "fetchr.category.rail"}', tags: ["fetchr:default"]}
-#data modify storage fetchr:registries categories append value {id: "fetchr:redstone", name: '{"translate": "fetchr.category.redstone"}', tags: ["fetchr:default"]}
-#data modify storage fetchr:registries categories append value {id: "fetchr:sand", name: '{"translate": "fetchr.category.sand"}', tags: ["fetchr:default"]}
-#data modify storage fetchr:registries categories append value {id: "fetchr:sapling", name: '{"translate": "fetchr.category.sapling"}', tags: ["fetchr:default"]}
-#data modify storage fetchr:registries categories append value {id: "fetchr:shearable", name: '{"translate": "fetchr.category.shearable"}', tags: ["fetchr:default"]}
-#data modify storage fetchr:registries categories append value {id: "fetchr:shipwreck", name: '{"translate": "fetchr.category.shipwreck"}', tags: ["fetchr:default"]}
-#data modify storage fetchr:registries categories append value {id: "fetchr:skeleton_drops", name: '{"translate": "fetchr.category.skeleton_drops"}', tags: ["fetchr:default"]}
-#data modify storage fetchr:registries categories append value {id: "fetchr:snow", name: '{"translate": "fetchr.category.snow"}', tags: ["fetchr:default"]}
-#data modify storage fetchr:registries categories append value {id: "fetchr:spider", name: '{"translate": "fetchr.category.spider"}', tags: ["fetchr:default"]}
-#data modify storage fetchr:registries categories append value {id: "fetchr:taiga", name: '{"translate": "fetchr.category.taiga"}', tags: ["fetchr:default"]}
-#data modify storage fetchr:registries categories append value {id: "fetchr:wheat", name: '{"translate": "fetchr.category.wheat"}', tags: ["fetchr:default"]}
-#data modify storage fetchr:registries categories append value {id: "fetchr:wool", name: '{"translate": "fetchr.category.wool"}', tags: ["fetchr:default"]}
+# data modify storage fetchr:registries categories append value {id: "fetchr:rail", name: '{"translate": "fetchr.category.rail"}', tags: ["fetchr:default"]}
+# data modify storage fetchr:registries categories append value {id: "fetchr:redstone", name: '{"translate": "fetchr.category.redstone"}', tags: ["fetchr:default"]}
+# data modify storage fetchr:registries categories append value {id: "fetchr:sand", name: '{"translate": "fetchr.category.sand"}', tags: ["fetchr:default"]}
+# data modify storage fetchr:registries categories append value {id: "fetchr:sapling", name: '{"translate": "fetchr.category.sapling"}', tags: ["fetchr:default"]}
+# data modify storage fetchr:registries categories append value {id: "fetchr:shearable", name: '{"translate": "fetchr.category.shearable"}', tags: ["fetchr:default"]}
+# data modify storage fetchr:registries categories append value {id: "fetchr:shipwreck", name: '{"translate": "fetchr.category.shipwreck"}', tags: ["fetchr:default"]}
+# data modify storage fetchr:registries categories append value {id: "fetchr:skeleton_drops", name: '{"translate": "fetchr.category.skeleton_drops"}', tags: ["fetchr:default"]}
+# data modify storage fetchr:registries categories append value {id: "fetchr:snow", name: '{"translate": "fetchr.category.snow"}', tags: ["fetchr:default"]}
+# data modify storage fetchr:registries categories append value {id: "fetchr:spider", name: '{"translate": "fetchr.category.spider"}', tags: ["fetchr:default"]}
+# data modify storage fetchr:registries categories append value {id: "fetchr:taiga", name: '{"translate": "fetchr.category.taiga"}', tags: ["fetchr:default"]}
+# data modify storage fetchr:registries categories append value {id: "fetchr:wheat", name: '{"translate": "fetchr.category.wheat"}', tags: ["fetchr:default"]}
+# data modify storage fetchr:registries categories append value {id: "fetchr:wool", name: '{"translate": "fetchr.category.wool"}', tags: ["fetchr:default"]}
 
 # Custom categories
 data modify storage fetchr:registries categories append value {id: "fetchr:apple", name: '{"translate": "fetchr.category.apple"}', tags: ["fetchr:default"]}
