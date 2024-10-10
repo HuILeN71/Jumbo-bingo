@@ -576,7 +576,6 @@ data modify storage fetchr:registries items append value {id: "fetchr:amethyst_b
 ## 0132: calcite
 data modify storage fetchr:registries items append value {id: "fetchr:calcite", item: {id: "minecraft:calcite"}, textComponent: '{"translate": "block.minecraft.calcite", "hoverEvent": {"action": "show_item", "contents": {"id": "minecraft:calcite"}}}', icon: '"\\u0132"', detectCommand: "execute as @a[tag=fetchr.check_slot] store success score @s fetchr.has_item run clear @s minecraft:calcite 0", clearCommand: "clear @a[tag=fetchr.clear] minecraft:calcite 1", categories: ["fetchr:geode"]}
 
-
 # structures
 data modify storage fetchr:registries structures append value "fetchr:credits"
 data modify storage fetchr:registries structures append value "fetchr:card_generation"
